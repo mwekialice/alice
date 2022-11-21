@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #211522;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #ece9e9;
+}
+p{
+  padding-top: .6rem;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #F8C0C8;
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:#F8C0C8;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.button, .title {
+  border: none;
+  border-radius: 12px;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #584e4e;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+hr{
+  background-color: #584e4e;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.AboutMe{
+    background-color: #584e4e;
+    border-radius: 12px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 2.2rem;
+    padding: 1.1rem;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div class="about-section">
+            <span class="AboutMe">About Me</span>
+            
+          </div>
+          
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="image.jpg" alt="Alice" style="width:100%; height: 330px; border-radius: 50%;">
+                <div class="container">
+                  <h2>Alice Ngii Mweki</h2>
+                  <p class="title">student</p>
+                  <p>Currently I am pursuing a degree in Bsc in Health Records and Information Management at Kenyatta University.</p>
+                  <p>alicemweki@gmail.com</p>
+                  <p><a href = "mailto: alicemweki@gmail.com" class="button">Send Email</a></p>
+                </div>
+              </div>
+            </div>
+
+           <div class="column">
+              <div class="card">
+                <div class="container">
+                
+                
+                  <p>I am a diploma holder in Health Records and Information Technology.</p>
+                  <p>Currently I am pursuing a degree in Bsc in Health Records and Information Management at Kenyatta University.</p>
+                    <hr>
+                    <p>I am ambitious and self-driven toward my goals.I thrive to always challenge and constantly set goals for myself, so I have something to strive towards.</p>
+                    <P>I am not comfortable with settling and I am always on the lookout for an opportunity to do better and achieve greatness.</P>
+                    <p>During my freetime I enjoy:</p>
+                    <ul>
+                      <li>Travelling </li>
+                      <li>Dancing</li>
+                      <li>cooking</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          
+           
+          </div>
+    </body>
+</html>
